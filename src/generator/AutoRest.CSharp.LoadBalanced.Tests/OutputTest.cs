@@ -26,13 +26,13 @@ namespace AutoRest.CSharp.LoadBalanced.Tests
                 }
                 catch (NullReferenceException)
                 {
-                    path = "C:\\projects\\autorest\\src\\generator\\AutoRest.CSharp.LoadBalanced.Tests";
+                    path = "C:\\DevWorkspace\\ext-git\\autorest\\src\\generator\\AutoRest.CSharp.LoadBalanced.Tests";
                 }
 
                 var settings = new Settings
                                {
-                                   Input = "C:\\Users\\jlaszlo\\Desktop\\_test\\input.json.txt",
-                                   OutputDirectory = "C:\\Users\\jlaszlo\\Desktop\\_test",
+                                   Input = "C:\\swagger\\temp\\temp.json.txt",
+                                   OutputDirectory = "C:\\swagger\\output\\_test",
                                    CodeGenerator = "Test",
                                    Namespace = "Agoda.SAPI.Client"
                                };
